@@ -1,35 +1,23 @@
 # Traffic Flow Prediction Models
 
 ## 📌 Project Overview
-This project develops and evaluates predictive models for traffic flow forecasting, comparing statistical and deep learning approaches.
+This project focuses on developing and evaluating three predictive models for traffic flow forecasting. The models range from a traditional time-series approach to advanced deep learning methods, incorporating external variables to enhance prediction accuracy.
 
 ## 🚀 Models Developed
 ### 1️⃣ Model A: **ARIMA Model**
-- Uses historical traffic flow data.
-- Baseline statistical model for time-series forecasting.
+- Historical traffic flow data is used for time-series forecasting.
+- Baseline model to compare deep learning performance.
 
 ### 2️⃣ Model B: **LSTM Model**
-- Deep learning model using historical traffic data.
-- Captures sequential dependencies in traffic flow.
+- Utilizes historical traffic flow data.
+- Implements a deep learning-based sequential model for improved long-term forecasting.
 
 ### 3️⃣ Model C: **Enhanced LSTM Model**
-- Incorporates additional variables:
+- Incorporates additional variables such as:
   - **Weather conditions**
   - **Rainfall data**
   - **Weekend patterns**
-- Improves long-term traffic prediction accuracy.
-
----
-
-## 🔬 Two-Level Model Comparison
-This study evaluates the models at two levels:
-
-### 🔹 **Level 1: ARIMA vs. LSTM (Model A vs. Model B)**
-- Tests the effectiveness of deep learning over traditional time-series forecasting.
-
-### 🔹 **Level 2: Basic LSTM vs. Enhanced LSTM (Model B vs. Model C)**
-- Analyzes the impact of incorporating external factors into LSTM models.
-
+- Aim to enhance predictive accuracy beyond Model B.
 ---
 
 ## 📊 Model Performance Comparison
