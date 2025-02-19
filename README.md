@@ -49,28 +49,3 @@ The models are evaluated using **Mean Absolute Error (MAE), Root Mean Square Err
 
 ---
 
-## 🛠 Installation & Setup
-### 🔧 Requirements:
-- Python 3.x
-- TensorFlow / Keras
-- Statsmodels
-- Pandas & NumPy
-- Matplotlib & Seaborn
-
-### ▶️ Run the Models:
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/traffic-prediction.git
-cd traffic-prediction
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run ARIMA Model
-python model_arima.py
-
-# Run Basic LSTM Model
-python model_lstm.py
-
-# Run Enhanced LSTM Model
-python model_lstm_enhanced.py
